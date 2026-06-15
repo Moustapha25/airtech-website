@@ -364,22 +364,32 @@ function App() {
               </div>
 
               {/* Stats */}
-              <div className="flex flex-wrap justify-center lg:justify-start gap-8 mt-12 animate-slide-up" style={{ animationDelay: '0.4s' }}>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-accent-500">50+</div>
-                  <div className="text-white/60 text-sm">Projets livrés</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-accent-500">100%</div>
-                  <div className="text-white/60 text-sm">Clients satisfaits</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-accent-500">24/7</div>
-                  <div className="text-white/60 text-sm">Support technique</div>
-                </div>
+            <div
+              className="flex flex-wrap justify-center lg:justify-start gap-8 mt-12 animate-slide-up"
+              style={{ animationDelay: '0.4s' }}
+            >
+              <div className="text-center">
+                <div className="text-3xl font-bold text-accent-500">01</div>
+                <div className="text-white/60 text-sm">Projet déployé</div>
+              </div>
+
+              <div className="text-center">
+                <div className="text-3xl font-bold text-accent-500">02</div>
+                <div className="text-white/60 text-sm">Plateformes en ligne</div>
+              </div>
+
+              <div className="text-center">
+                <div className="text-3xl font-bold text-accent-500">Amana & Nita</div>
+                <div className="text-white/60 text-sm">Paiements digitaux</div>
+              </div>
+
+              <div className="text-center">
+                <div className="text-3xl font-bold text-accent-500">24/7</div>
+                <div className="text-white/60 text-sm">Support technique</div>
               </div>
             </div>
-
+            </div>
+            
             {/* Hero Illustration */}
             <div className="relative hidden lg:block">
               <div className="relative w-full aspect-square">

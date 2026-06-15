@@ -349,7 +349,7 @@ function App() {
               </h1>
 
               <p className="text-lg sm:text-xl text-white/80 mb-8 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-                Nous créons des sites web, applications mobiles et solutions e-commerce
+                Nous créons des sites web, applications web et mobiles et solutions e-commerce
                 avec intégration des paiements Amana et Nita.
               </p>
 

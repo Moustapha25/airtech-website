@@ -389,7 +389,7 @@ function App() {
               </div>
             </div>
             </div>
-            
+
             {/* Hero Illustration */}
             <div className="relative hidden lg:block">
               <div className="relative w-full aspect-square">
@@ -671,15 +671,15 @@ function App() {
               {/* Stats cards */}
               <div className="grid grid-cols-2 gap-6">
                 <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center">
-                  <div className="text-4xl font-bold text-accent-500 mb-2">50+</div>
+                  <div className="text-4xl font-bold text-accent-500 mb-2">1</div>
                   <div className="text-white/60">Projets livrés</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center">
-                  <div className="text-4xl font-bold text-accent-500 mb-2">30+</div>
+                  <div className="text-4xl font-bold text-accent-500 mb-2">1</div>
                   <div className="text-white/60">Clients satisfaits</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center">
-                  <div className="text-4xl font-bold text-accent-500 mb-2">2+</div>
+                  <div className="text-4xl font-bold text-accent-500 mb-2">1+</div>
                   <div className="text-white/60">Années d'expérience</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center">

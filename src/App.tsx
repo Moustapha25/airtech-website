@@ -167,27 +167,26 @@ function App() {
   ];
 
   const portfolio = [
-    {
-      title: 'Boutique e-commerce avec Amana',
-      description: 'Plateforme e-commerce complète avec intégration des paiements Amana pour une entreprise nigérienne.',
-      tags: ['E-commerce', 'API Amana', 'React'],
-    },
-    {
-      title: 'Application mobile de gestion',
-      description: 'Application Android/iOS pour la gestion des commandes et suivi en temps réel.',
-      tags: ['Mobile', 'Flutter', 'Firebase'],
-    },
-    {
-      title: 'Site web professionnel',
-      description: 'Site vitrine moderne avec design premium pour une entreprise de services.',
-      tags: ['Web', 'React', 'Tailwind'],
-    },
-    {
-      title: 'Intégration API Nita',
-      description: 'Système de paiement digital intégré pour une plateforme de services.',
-      tags: ['API Nita', 'Paiement', 'Sécurité'],
-    },
-  ];
+  {
+    title: 'Boulevard Delivery',
+    description:
+      'Plateforme complète de commande et livraison de repas avec menu dynamique, panier, géolocalisation client, dashboard restaurant, espace livreur, notifications temps réel et statistiques.',
+    tags: ['React', 'Supabase', 'Vercel', 'Realtime', 'Livraison'],
+    link: 'https://boulevard-delivery.vercel.app',
+  },
+  {
+    title: 'Boutique e-commerce avec Amana',
+    description:
+      'Plateforme e-commerce avec intégration des paiements Amana pour automatiser les transactions.',
+    tags: ['E-commerce', 'API Amana', 'WooCommerce'],
+  },
+  {
+    title: 'Intégration API Nita',
+    description:
+      'Système de paiement digital intégré pour une plateforme de services.',
+    tags: ['API Nita', 'Paiement', 'Sécurité'],
+  },
+];
 
   return (
     <div className="min-h-screen bg-white">
@@ -601,6 +600,18 @@ function App() {
                     </span>
                   ))}
                 </div>
+
+                {'link' in item && item.link && (
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center mt-5 text-accent-600 font-semibold hover:text-accent-700"
+                  >
+                    Voir la démonstration
+                    <ChevronRight className="ml-1 w-4 h-4" />
+                  </a>
+                )}
               </div>
             ))}
           </div>

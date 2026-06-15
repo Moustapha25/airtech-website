@@ -116,8 +116,8 @@ function App() {
   const services = [
     {
       icon: Globe,
-      title: 'Création de sites web',
-      description: 'Sites web professionnels, modernes et responsive adaptés à votre image de marque.',
+      title: 'Développement Web & Applications',
+      description: 'Développement de sites web, plateformes métier, applications SaaS et solutions digitales sur mesure.',
     },
     {
       icon: Smartphone,

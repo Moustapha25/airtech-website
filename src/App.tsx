@@ -640,8 +640,8 @@ function App() {
                 À propos de nous
               </span>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-                Une équipe passionnée au service de{' '}
-                <span className="gradient-text">votre succès digital</span>
+                Des solutions digitales innovantes pour{' '}
+                <span className="gradient-text">accélérer votre croissance</span>
               </h2>
               <p className="text-white/80 text-lg leading-relaxed mb-6">
                 AÏRTech est une entreprise technologique nigérienne basée à Niamey, fondée
@@ -679,8 +679,8 @@ function App() {
                   <div className="text-white/60">Clients satisfaits</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center">
-                  <div className="text-4xl font-bold text-accent-500 mb-2">1+</div>
-                  <div className="text-white/60">Années d'expérience</div>
+                  <div className="text-4xl font-bold text-accent-500 mb-2">9+</div>
+                  <div className="text-white/60">Années d'expérience IT & Télécoms</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center">
                   <div className="text-4xl font-bold text-accent-500 mb-2">100%</div>
